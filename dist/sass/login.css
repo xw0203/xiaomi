@@ -1,0 +1,241 @@
+.wrap {
+  width: 100%;
+  height: 100%; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+.log {
+  width: 100%;
+  height: 98px; }
+
+.log .top {
+  height: 98px;
+  width: 1226px;
+  margin: 0 auto; }
+
+.content {
+  width: 100%;
+  height: 400px;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.reg_nav {
+  width: 408px;
+  padding-top: 24px;
+  margin: 0px auto;
+  margin-left: 88px;
+  margin-bottom: 15px; }
+  .reg_nav a {
+    font-size: 20px;
+    display: inline-block;
+    width: 96px;
+    height: 25px; }
+  .reg_nav .z_login {
+    color: #ff6600; }
+  .reg_nav span {
+    padding: 10px;
+    padding-right: 20px;
+    color: #ccc; }
+
+.reg_box {
+  width: 408px;
+  background: #ffffff;
+  float: right;
+  margin-right: 100px;
+  height: 588px;
+  margin-top: 20px; }
+  .reg_box .s_login:hover {
+    color: #ff6600; }
+  .reg_box .box {
+    width: 248px;
+    margin-top: 10px; }
+    .reg_box .box p {
+      width: 100%;
+      height: 32px;
+      margin: 18px 80px 18px; }
+      .reg_box .box p input {
+        width: 100%;
+        height: 32px;
+        border: 1px solid #ccc;
+        font-size: 12px;
+        line-height: 12px;
+        padding-left: 12px;
+        border: 1px solid #ccc; }
+      .reg_box .box p .log_in {
+        height: 32px;
+        width: 100%;
+        margin-top: 20px;
+        background: #ff6600;
+        text-align: center;
+        border: 1px solid #ccc;
+        margin-left: 8px; }
+    .reg_box .box .err {
+      display: inline-block;
+      width: 100px;
+      height: 16px;
+      margin-left: 80px;
+      color: #ff6600;
+      display: none; }
+
+.other_login {
+  width: 100%;
+  height: 100px;
+  margin-top: 30px; }
+  .other_login a {
+    display: block;
+    color: #ff6600;
+    height: 13px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    position: relative; }
+
+.reg {
+  width: 248px;
+  height: 24px;
+  margin: 0 auto;
+  margin-top: -50px; }
+  .reg a {
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    width: 72px;
+    height: 24px;
+    margin: 0 20px;
+    color: #999999; }
+    .reg a:hover {
+      color: #ff6600; }
+  .reg span {
+    color: #999999; }
+
+.boxb {
+  width: 100%;
+  height: 80px;
+  margin-top: 80px; }
+  .boxb .othser-legend {
+    width: 248px;
+    margin-top: 0px;
+    border-top: 1px solid #999999;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 10px;
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 88px; }
+  .boxb .icon-link {
+    height: 38px;
+    margin-top: 8px;
+    width: 248px;
+    margin: 0 auto; }
+    .boxb .icon-link a {
+      display: block;
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin: 0px 20px 0 20px; }
+
+.reg_box .none {
+  width: 408px;
+  height: 250px; }
+
+.erweima {
+  width: 408px;
+  height: 200px;
+  display: none; }
+  .erweima img {
+    width: 180px;
+    height: 180px;
+    margin-left: 110px; }
+  .erweima p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    height: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #999999; }
+    .erweima p span {
+      color: #ff6600; }
+
+.cell-phone {
+  display: none;
+  width: 408px;
+  height: 200px; }
+  .cell-phone p {
+    height: 36px;
+    float: left;
+    margin: auto;
+    margin: 12px 50px 14px 100px;
+    line-height: 36px; }
+    .cell-phone p span {
+      width: 48px;
+      display: inline-block;
+      height: 34px;
+      border: 1px solid #999999;
+      border-right: none; }
+    .cell-phone p input {
+      float: right;
+      height: 30px;
+      padding-left: 10px; }
+    .cell-phone p .Meg {
+      float: left;
+      width: 142px; }
+    .cell-phone p button {
+      width: 90px;
+      height: 36px;
+      border: 1px solid #999999;
+      float: left;
+      border-left: none;
+      background: white;
+      color: #0033cc; }
+  .cell-phone .but {
+    display: block;
+    width: 232px;
+    height: 36px;
+    background: #ff6600;
+    margin: 15px 50px 5px 100px; }
+  .cell-phone a {
+    display: block;
+    width: 110px;
+    height: 36px;
+    margin-left: 170px;
+    margin-right: auto; }
+
+.foot {
+  width: 100%;
+  height: 76px;
+  padding-top: 104px; }
+  .foot div {
+    width: 100%;
+    height: 30px; }
+  .foot ul {
+    width: 344px;
+    margin: 0 auto; }
+    .foot ul li {
+      float: left;
+      height: 26px;
+      line-height: 26px; }
+      .foot ul li a {
+        float: left;
+        padding: 0 10px;
+        font-size: 14px;
+        color: #757575; }
+      .foot ul li a:hover {
+        color: #333333; }
+  .foot p {
+    width: 580px;
+    font-size: 14px;
+    color: #757575;
+    margin: 0 auto; }
+    .foot p a {
+      color: #757575; }
+  .foot .active {
+    color: #333333; }

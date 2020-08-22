@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="../sass/reset.css">
+    <link rel="stylesheet" href="../sass/login.css">
+   
+</head>
+<body>
+    <div class="wrap">
+        <!-- log -->
+        <div class="log">
+            <div class="top">
+                <a href="#"><img src="../image/login_logo.png" alt=""></a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="reg_box">
+                <div class="reg_nav">
+                    <a href="" class="z_login">账号登录</a>
+                    <span>|</span>
+                    <a href="javascript:;" class="s_login">扫码登录</a>
+                </div>
+                <div class="none">
+                    <div class="box">
+                        <p> <input type="text" class="user" placeholder="邮箱/手机号/小米ID"></p>
+                        <p> <input type="text" class="pass" placeholder="密码"></p>
+                        <span class="err"></span>
+                        <p><button class="log_in">登录</button></p>
+                    </div>
+                    
+                    <div class="other_login">
+                        <a href="#" class="tab_login">手机短信登录/注册
+                        </a>
+                    </div>
+                    <div class="reg">
+                        <a href="../pages/register.html" class="L">立即注册</a>
+                        <span>|</span>
+                        <a href="" class="W">忘记密码</a>                       
+                    </div>
+                </div>
+                <!-- 二维码隐藏 -->
+                <div class="erweima">
+                    <img src="../image/mimi.png" alt="">
+                    <p class="mi_name">使用<span>小米商城</span>APP扫一扫</p>
+                    <p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
+                </div>
+
+
+                <!-- 手机短信登录/注册 -->
+                <div class="cell-phone">
+                    <p>
+                        <span class="num">+86</span>
+                        <input type="text" placeholder="手机号码">
+                    </p>
+                    <p class="fl">
+                        <input type="text" placeholder="短信验证码" class="Meg">
+                        <button>获取验证码</button>
+                    </p> 
+                   <button class="but" >立即登录/注册</button>
+                   <a href="#" class="mima" style="color:#ff6600;">用户密码登录</a>
+                   <a href="#" style="color: #999999;">收不到验证码?</a>
+
+                </div>
+                
+                <div class="boxb">
+                    <fieldset class="othser-legend">
+                        <legend>其他方式登录</legend>
+                    </fieldset> 
+                    <div class="icon-link">
+                        <a href="#" >
+                            <img src="../image/iconQQ.png" alt="">
+                        </a>
+                        <a href="#" >
+                            <img src="../image/iconWeibo.png" alt="">
+                        </a>
+                        <a href="#" >
+                            <img src="../image/iconZhifubao.png" alt="">
+                        </a>
+                        <a href="#" >
+                            <img src="../image/iconWeixin.png" alt="">
+                        </a>        
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="foot">
+            <div class="list">
+                <ul>
+                    <li><a href="javascript:;" class="active">简体</a>|</li>
+                    <li><a href="javascript:;">繁体</a>|</li>
+                    <li><a href="javascript:;">English</a>|</li>
+                    <li><a href="javascript:;">常见问题</a>|</li>
+                    <li><a href="javascript:;">隐私政策</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>
+                    小米公司版权所有-京ICP备10046444-
+                    <img src="../image/police.png" alt="">
+                    <a href="javascript:;">京公网宝备11010802020134号</a> -ICP证110507号
+                </p>
+            </div>
+        </div>             
+    </div>
+
+<script src="../script/jquery-1.8.3.js"></script>
+<script src="../script/utils.js"></script>
+<script src="../script/login.js"></script>
+</body>
+</html>

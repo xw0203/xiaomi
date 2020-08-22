@@ -1,0 +1,313 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.log{
+    width: 100%;
+    height: 98px;
+   
+}
+.log .top{
+    height: 98px;
+    width:1226px;
+    margin:0 auto;
+    // background: red;
+
+    
+}
+.content{
+    width: 100%;
+    height:400px;
+    // background: url(../image/bg_mi.jpg)no-repeat;
+    background-position: 50%;
+    background-repeat: no-repeat;     
+}
+//账号登录
+.reg_nav{
+    width: 408px;
+    // text-align: center;
+    padding-top: 24px;
+    margin: 0px auto;
+    margin-left: 88px;
+    margin-bottom: 15px;
+    // display: none;
+   
+    a{
+        font-size: 20px;
+        display: inline-block;
+        width: 96px;
+        height: 25px;
+    }
+    .z_login{
+        color: #ff6600;
+    }
+    span{
+        padding: 10px;
+        padding-right: 20px;
+        color: #ccc;
+    }  
+}
+// 邮箱/手机号/小米ID
+.reg_box{
+    width: 408px;
+    background: #ffffff;
+    float: right;
+    margin-right: 100px;
+    height:588px;
+    margin-top: 20px;
+
+
+    // 手机短信登录/注册
+    .s_login:hover{
+        color: #ff6600;
+    }
+    .box{
+        width: 248px;
+        margin-top: 10px;
+        p{
+            width: 100%;
+            height: 32px;
+            margin: 18px 80px 18px;
+            // text-align: center;    
+            input{
+                width: 100%;
+                height: 32px;
+                border: 1px solid #ccc;
+                font-size: 12px;
+                line-height:12px;
+                padding-left: 12px;
+                border: 1px solid #ccc;
+            }
+            .log_in{
+                height: 32px;
+                width: 100%;
+                margin-top: 20px;
+                background: #ff6600;
+                text-align: center;
+                border: 1px solid #ccc;
+                margin-left: 8px;
+
+                
+            }
+        }
+        .err{
+            display: inline-block;
+            width: 100px;
+            height: 16px;
+            margin-left: 80px;
+            color: #ff6600;
+            display: none;
+        }
+    }
+}  
+// 手机短信登录
+.other_login{
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    a{
+        display: block;
+        color: #ff6600;
+        height: 13px;
+        text-align: center;
+        margin:0 auto;
+        font-size: 12px;
+        position: relative;
+    }  
+}
+.reg{
+    width: 248px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: -50px;
+    a{
+        display: inline-block;
+        text-align: center;
+        line-height:24px;
+        width: 72px;
+        height: 24px;
+        margin:0 20px;
+        color: #999999;
+        &:hover{
+            color: #ff6600;
+        }
+    }
+    span{
+        color: #999999;
+    }
+   
+}
+.boxb{
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+    // display: none;
+    .othser-legend{
+        width: 248px;
+        margin-top: 0px;
+        border-top: 1px solid #999999;
+        border-bottom:0;
+        border-left:0;
+        border-right:0;
+        padding-top: 10px;
+        color:#999999;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 88px;;
+    }  
+    .icon-link{
+        height: 38px;
+        margin-top:8px;
+        width: 248px;
+        margin: 0 auto;
+        a{
+            display: block;
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin: 0px 20px 0 20px;
+        }  
+    } 
+}
+// 登录主界面
+.reg_box .none{
+    width: 408px;
+    height: 250px;
+    // border: 1px solid red;
+    // display: none;
+}
+// 扫码登录
+.erweima{
+    width: 408px;
+    height: 200px;
+    display: none;
+    img{
+        width: 180px;
+        height: 180px;
+        margin-left: 110px;   
+    }
+    p{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px; 
+        height: 16px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #999999;
+        span{
+            color: #ff6600; 
+        }
+    }
+}
+
+
+// 手机短信登录/注册
+.cell-phone{
+    display: none;
+    width: 408px;
+    height: 200px;
+    // border: 1px solid red;
+    p{
+        height: 36px;
+        float: left;
+        margin:auto;
+        margin:12px 50px 14px 100px;
+        line-height: 36px;
+        span{
+            width: 48px;
+            display: inline-block;
+            height: 34px;
+            border: 1px solid #999999;
+            border-right:none;
+           
+        }
+        input{
+            float: right;
+            height: 30px;
+            padding-left: 10px;
+        }
+        .Meg{
+            float: left;
+            width: 142px;
+        }
+        button{
+            width: 90px;
+            height: 36px;
+            border: 1px solid #999999;
+            float: left;
+            border-left:none;
+            background: white;
+            color: #0033cc;
+        }  
+    }
+    .but{
+     
+        display: block;
+        width: 232px;
+        height: 36px;
+        background: #ff6600;
+        margin:15px 50px 5px 100px;
+    }
+    a{
+        display: block;
+        width: 110px;
+        height: 36px;
+        // margin:15px 150px 5px 100px;
+        margin-left: 170px;
+        margin-right: auto;
+       
+    }
+}
+
+// foot
+.foot{
+    width: 100%;
+    height: 76px;
+    padding-top: 104px;
+    div{
+        width: 100%;
+        height: 30px;
+    }
+    ul{
+        width: 344px;
+        margin: 0 auto;
+        li{
+            float: left;
+            height: 26px;
+            line-height: 26px;
+            a{
+                float: left;
+                padding: 0 10px;
+                font-size: 14px;
+                color: #757575;
+            }
+            a:hover{
+                color: #333333;
+            }
+        }
+    }
+    p{
+        width: 580px;
+        font-size: 14px;
+        color: #757575;
+        margin: 0 auto;
+        a{
+            color: #757575;
+        }
+    }
+    .active{
+        color: #333333;
+    }
+}
+
+
+
+
